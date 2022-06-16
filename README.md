@@ -15,6 +15,7 @@ The high level goal of this project is to:
 <p>The data used for this exercise is the Amazon Reviews dataset for unlocked mobile phones, which can be downloaded <a href="https://www.kaggle.com/datasets/PromptCloudHQ/amazon-reviews-unlocked-mobile-phones">here.</a></p>
 <br>
 Alternatively, the dataset can be loaded in directly with the Kaggle API, the documentation of which can be located <a href="https://www.kaggle.com/docs/api">here</a>.
+
 ```
 pip install kaggle
 kaggle.api.authenticate()
