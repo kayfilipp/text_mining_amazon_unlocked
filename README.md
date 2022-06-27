@@ -25,6 +25,14 @@ kaggle.api.dataset_download_files(
 )
 ```
 
+After loading in the dataset, ingest the .csv into a dataframe:
+
+```
+import pandas as pd 
+df = pd.read_csv('Amazon_Unlocked_Mobile.csv')
+df = df.rename(columns={"Reviews": "text"})
+```
+
 ### Navigating the Jupyter Notebook Space
 Notebooks consist of distinct chunks of the data processing pipeline, divided into data preparation, ad-hoc foreign language removal, supervised learning for multi-class review modeling, supervised binary classification for sentiment analysis, and unsupervised topic modeling. 
 
