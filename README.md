@@ -24,3 +24,9 @@ kaggle.api.dataset_download_files(
     unzip=True
 )
 ```
+
+### Navigating the Jupyter Notebook Space
+Notebooks consist of distinct chunks of the data processing pipeline, divided into data preparation, ad-hoc foreign language removal, supervised learning for multi-class review modeling, supervised binary classification for sentiment analysis, and unsupervised topic modeling. 
+
+![Presentation2](https://user-images.githubusercontent.com/36943200/175841393-719f1971-2659-4aad-8b75-1ec7aae99b87.jpg)
+
