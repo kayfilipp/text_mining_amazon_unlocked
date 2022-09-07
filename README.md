@@ -4,7 +4,7 @@ The high level goal of this project is to:
 <ol>
   <li>Ingest data using an API or Web Scraping tool</li>
   <li>Clean, tokenize, and otherwise normalize text data</li>
-  <li>Linguistically process elements such as POS, NER, etc.</li>
+  <li>process Linguistic elements such as POS, NER, etc.</li>
   <li>Address class imbalances</li>
   <li>Create Feature vectors</li>
   <li>Train a model that can categorize reviews by rating</li>
